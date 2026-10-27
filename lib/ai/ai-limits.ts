@@ -1,0 +1,15 @@
+export const AI_LIMITS = {
+  maximumStrengths: 5,
+  maximumIssues: 10,
+  maximumRecommendations: 10,
+  maximumEvidenceRefs: 5,
+  maximumAccessibilityIssues: 10,
+  maximumMobileFindings: 10,
+  maximumPerformanceOpportunities: 10,
+  maximumEvidenceExamples: 3,
+  maximumCatalogEntries: 60,
+  maximumShortText: 180,
+  maximumLongText: 600,
+  maximumOutputTokens: 1_600,
+  timeoutMs: 20_000,
+} as const;
